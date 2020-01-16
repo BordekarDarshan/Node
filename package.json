@@ -1,0 +1,24 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "NodeRewind",
+  "main": "yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bordekar018/NodeRewind.git"
+  },
+  "author": "Darshan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bordekar018/NodeRewind/issues"
+  },
+  "homepage": "https://github.com/Bordekar018/NodeRewind#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.0.2",
+    "express": "^4.17.1",
+    "http-server": "^0.12.1"
+  }
+}
