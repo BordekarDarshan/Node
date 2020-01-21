@@ -19,6 +19,7 @@
   "dependencies": {
     "@hapi/joi": "^16.1.8",
     "express": "^4.17.1",
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.1",
+    "mongoose": "^5.8.9"
   }
 }
