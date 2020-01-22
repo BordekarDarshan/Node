@@ -9,7 +9,7 @@ router.get("/getGenre", async (req, res) => {
 });
 
 router.post("/addGenre", async (req, res) => {
-  let newGenre = new GenreModel({
+  let newGenre = new GenreModel.GenreModel({
     Genre: req.body.Genre
   });
   let SaveData = await newGenre.save();
