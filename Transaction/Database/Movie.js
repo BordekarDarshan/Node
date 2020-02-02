@@ -4,7 +4,7 @@ let movieSchema = new mongoose.Schema({
   name: { type: String, required: true },
   actor: { type: String, required: true },
   price: { type: Number, required: true },
-  moviestock: { type: Number, required: true }
+  moviestock: { type: Number }
 });
 
 let moviemodel = mongoose.model("movieData", movieSchema);

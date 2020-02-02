@@ -29,11 +29,12 @@ router.post("/usermovie", async (req, res) => {
     movieId: {
       name: movieData.name,
       actor: movieData.actor,
-      price: movieData.price,
-      moviestock: movieData.moviestock
+      price: movieData.price
     }
   });
   let saveData = await addData.save();
+  movieData.moviestock--;
+  await movieData.save();
   res.send({ Data: saveData });
 });
 
